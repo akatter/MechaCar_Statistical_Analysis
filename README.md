@@ -46,16 +46,16 @@ However, as shown by the breakdown by lot, the suspension coils produced by Lot3
 Four t-tests were performed comparing the means of the production of all lots combined and each lot individually to the population mean of 1500. The results are shown below:
 
 #### T-test Total
-![T-test for All Lots](Images/Ttest_Total.png)
+![T-test for All Lots](Images/TTest_Total.png)
 
 #### T-test for Lot 1
-![T-test for Lot 1](Images/Ttest_Lot1.png)
+![T-test for Lot 1](Images/TTest_Lot1.png)
 
 #### T-test for Lot 2
-![T-test for Lot 2](Images/Ttest_Lot2.png)
+![T-test for Lot 2](Images/TTest_Lot2.png)
 
 #### T-test for Lot 3
-![T-test for Lot 3](Images/Ttest_Lot3.png)
+![T-test for Lot 3](Images/TTest_Lot3.png)
 
 Based on this analysis the Total Summary of all Lots as well as the T-test for Lots 1 and 2 have p-values greater then 0.05, which means they fail to reject the null hypothesis, which mean the means of each set are not significantly different then 1500.
 
@@ -71,4 +71,4 @@ One option of a statistical test that can be taken is finding a particular aspec
 
 As mentioned, this would be a one-tailed t-test. While a two-tailed t-test could also be used, we would want to prove that the fixed value of MechaCar's performance is better then the performance of the competition, while a two-tailed test would succeed even if MechaCar's performance was significantly worse.
 
-The data required for this test would be collecting data on manufacturer performance of various models of competing cars. Depending on the focus of the analysis, this could be a larger pool of vehicles of different types or only specific models that might share other features like size or seating.
+The data required for this test would be collecting data on manufacturer performance of various models of competing cars. Depending on the focus of the analysis, this could be a larger pool of vehicles of different types or only specific models that might share other features like size or seating. This test could be repeated for other variables to identify where MechaCar exceeds the competition.
