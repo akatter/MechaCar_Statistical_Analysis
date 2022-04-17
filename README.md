@@ -63,3 +63,12 @@ The p-value for Lot 3 was 0.04, less then the assumed significance of 0.05. Ther
 
 ## Study Design: MechaCar vs Competition
 
+One option of a statistical test that can be taken is finding a particular aspect of MechaCar's design that would stand above the industry average of the competition. As an example, if the fuel economy was a focus of the design of the Mecha Car, a one-tailed t-test could be performed as such:
+
+- The metric used for analysis is the fuel economy, or MPG
+- The null hypothesis would be that the industry average fuel economy is equal or not significantly less then the performance of the MechaCar
+- The alternative hypothesis would be that the industry average is significantly less the the performance of the MechaCar, which can be shown as a step above and beyond what the industry is doing.
+
+As mentioned, this would be a one-tailed t-test. While a two-tailed t-test could also be used, we would want to prove that the fixed value of MechaCar's performance is better then the performance of the competition, while a two-tailed test would succeed even if MechaCar's performance was significantly worse.
+
+The data required for this test would be collecting data on manufacturer performance of various models of competing cars. Depending on the focus of the analysis, this could be a larger pool of vehicles of different types or only specific models that might share other features like size or seating.
